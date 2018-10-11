@@ -1,0 +1,6 @@
+-- This Excel formula is used to count the number of occurances of the specified character string.
+-- Examples of use:
+-- Count the number of existing column seperators per row to find problems in CSV files. Ex. to many ; exists on one line. Usecase further explained below.
+
+=LEN([@ColumnToSearch])-LEN(SUBSTITUTE([@ColumnToSearch];[@WhatToCount];"")) 
+
