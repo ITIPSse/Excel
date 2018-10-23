@@ -1,0 +1,10 @@
+-- This Excel formula checks a table column and counts the maximum number of characters a cell has in the column. 
+-- IMPORTANT! Remember to press CTRL + SHIFT + ENTER instead of normal ENTER since this is an ARRAY formula.
+-- If you get a #VALUE error it is most likely because you forgot to use CTRL + SHIFT + ENTER after you finished inputing the formula.
+
+-- Replace TableName[ColumnName] with your respective Table name and the name of the Column that you wish to find Max Characters of. 
+
+-- The formula should look like this when you have entered it correctly in the formula field. {=MAX(LEN(TableName[ColumnName]))}
+
+
+=MAX(LEN(TableName[ColumnName]))
